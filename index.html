@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的網站首頁</title>
+  <link rel="stylesheet" href="style.css"> <!-- 可選的外部CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>歡迎來到我的網站</h1>
+  </header>
+
+  <main>
+    <p>這是首頁內容，你可以在這裡放置網站的介紹或功能。</p>
+    <button onclick="sayHello()">點我打招呼</button>
+  </main>
+
+  <footer>
+    &copy; 2025 我的網站. 保留所有權利。
+  </footer>
+
+  <script>
+    function sayHello() {
+      alert("哈囉！歡迎光臨！");
+    }
+  </script>
+
+</body>
+</html>
